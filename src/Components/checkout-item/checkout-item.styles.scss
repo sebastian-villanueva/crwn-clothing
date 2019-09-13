@@ -7,6 +7,10 @@
     font-size: 20px;
     align-items: center;
 
+    .remove-button {
+        cursor: pointer;
+    }
+
     .image-container {
         width: 23%;
         padding-right: 15px;
@@ -21,5 +25,17 @@
     .quantity,
     .price {
         width: 23%;
+    }
+
+    .quantity {
+        display: flex;
+
+        .arrow {
+            cursor: pointer;
+        }
+
+        .value {
+            margin: 0 10px;
+        }
     }
 }
